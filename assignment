@@ -1,0 +1,22 @@
+#python program to calculate different geometrical characteristics of a polygon
+
+
+import math
+from math import tan,pi
+
+
+side = int(input('Number of polygon sides:' ))
+dimensionside=float(input('Enter the dimension side:'))
+
+
+area=side*(dimensionside**2)/(4*tan (pi/side))
+Perimeter = side * dimensionside
+
+
+print ('Area of the polygon is : ',area)
+
+
+print ('Perimeter of the polygon is: ', Perimeter)
+
+
+print('BIM A+ 3 Assignment Roger Peicho')
